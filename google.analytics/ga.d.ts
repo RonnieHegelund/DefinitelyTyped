@@ -30,7 +30,7 @@ interface GoogleAnalyticsTracker {
     _anonymizeIp(): void;
 }
 
-interface GoogleAnalytics {
+interface GoogleAnalytics extends Node {
     type: string;
     src: string;
     async: bool;
